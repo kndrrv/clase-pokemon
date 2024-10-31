@@ -20,28 +20,28 @@ class Pokemon: # se crea la clase Pokemon
     def get_type(self): # se utiliza el método getter para acceder al atributo privado __type
         return self.__type
     
-    def set_name(self, new_type):# se utilizar el método setter para modificar el valor del atributo __type
+    def set_type(self, new_type):# se utilizar el método setter para modificar el valor del atributo __type
         self.__type = new_type  
     
     # getter y setter de level
-    def get_name(self): # se utiliza el método getter para acceder al atributo privado __level
+    def get_level(self): # se utiliza el método getter para acceder al atributo privado __level
         return self.__level
     
-    def set_name(self, new_level): # se utilizar el método setter para modificar el valor del atributo __level
+    def set_level(self, new_level): # se utilizar el método setter para modificar el valor del atributo __level
         self.__level = new_level    
 
     # getter y setter de hp
-    def get_name(self): # se utiliza el método getter para acceder al atributo privado __hp
+    def get_hp(self): # se utiliza el método getter para acceder al atributo privado __hp
         return self.__hp
     
-    def set_name(self, new_hp): # se utilizar el método setter para modificar el valor del atributo __hp
+    def set_hp(self, new_hp): # se utilizar el método setter para modificar el valor del atributo __hp
         self.__hp = new_hp   
 
     # getter y setter de attack
-    def get_name(self): # se utiliza el método getter para acceder al atributo privado __attack
-        return self.__name
+    def get_attack(self): # se utiliza el método getter para acceder al atributo privado __attack
+        return self.__attack
     
-    def set_name(self, new_attack): # se utilizar el método setter para modificar el valor del atributo __attack
+    def set_attack(self, new_attack): # se utilizar el método setter para modificar el valor del atributo __attack
         self.__attack = new_attack
 
     # método para atacar
